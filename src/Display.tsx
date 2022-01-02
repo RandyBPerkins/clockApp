@@ -1,6 +1,10 @@
 import React from 'react';
 
-export default function Display(props) {
+interface DisplayProps { 
+    message: number;
+}
+
+export default function Display(props: DisplayProps) {
     const {message} = props;
     return( 
         <div>
